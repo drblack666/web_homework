@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Вторая домашечка</title>
+	<nav>
+		<p><a href="#ex1">Задание 1 (Таблица)</a></p>
+		<p><a href="#ex2">Задание 2 (Форма)</a></p>
+	</nav>
+</head>
+<body>
+
+<table id="ex1">
+	<caption>Результаты ICPC</caption>
+	<thead>
+		<tr>
+			<th rowspan="2">Год</th>
+			<th colspan="2">Место проведения</th>
+			<th colspan="2">Победитель</th>
+			<th colspan="3">Состав команды</th>
+			<th rowspan="2">Тренер</th>
+			<td>Poslednij</td>
+		</tr>
+		<tr>
+			<th>Страна</th>
+			<th>Город</th>
+			<th>Страна</th>
+			<th>Университет</th>
+			<th>Участник №1</th>
+			<th>Участник №2</th>
+			<th>Участник №3</th>
+			<td>stolbik</td>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<td colspan="9"><strong>Итого Россия победила раз за 2011-2017 годы:</strong></td>
+			<td><strong>6</strong></td>
+		</tr>
+
+	</tfoot>
+	<tbody>
+		<tr>
+			<td>2017</td>
+			<td>США</td>
+			<td>Рапид-сити</td>
+			<td>Россия</td>
+			<td>Университет ИТМО</td>
+			<td>Иван Белоногов</td>
+			<td>Илья Збань</td>
+			<td>Владимир Смыкалов</td>
+			<td>Андрей Станкевич</td>
+			<td>ya pridymat'</td>
+		</tr>
+		<tr>
+			<td>2016</td>
+			<td>Таиланд</td>
+			<td>Пхукет</td>
+			<td>Россия</td>
+			<td>СПбГУ</td>
+			<td>Станислав Ершов</td>
+			<td>Алексей Гордеев</td>
+			<td>Игорь Пышкин</td>
+			<td>Андрей Лопатин</td>
+			<td>ne smog</td>
+		</tr>
+		<tr>
+			<td>2015</td>
+			<td>Марокко</td>
+			<td>Марракеш</td>
+			<td>Россия</td>
+			<td>Университет ИТМО</td>
+			<td>Геннадий Короткевич</td>
+			<td>Борис Минаев</td>
+			<td>Артем Васильев</td>
+			<td>Андрей Станкевич</td>
+			<td>no v zadanii</td>
+		</tr>
+		<tr>
+			<td>2014</td>
+			<td>Россия</td>
+			<td>Екатеринбург</td>
+			<td>Россия</td>
+			<td>СПбГУ</td>
+			<td>Дмитрий Егоров</td>
+			<td>Павел Кунявский</td>
+			<td>Егор Суворов</td>
+			<td>Андрей Лопатин</td>
+			<td>skazano</td>
+		</tr>
+		<tr>
+			<td>2013</td>
+			<td>Россия</td>
+			<td>Санкт-Петербург</td>
+			<td>Россия</td>
+			<td rowspan="2">Университет ИТМО</td>
+			<td rowspan="2">Михаил Кевер</td>
+			<td>Геннадий Короткевич</td>
+			<td rowspan="2">Нияз Нигматуллин</td>
+			<td rowspan="2">Андрей Станкевич</td>
+			<td>chotobi bila</td>
+		</tr>
+		<tr>
+			<td>2012</td>
+			<td>Польша</td>
+			<td>Варшава</td>
+			<td>Россия</td>
+			<td>Евгений Капун</td>
+			<td>tablitsa</td>
+		</tr>
+		<tr>
+			<td>2011</td>
+			<td>США</td>
+			<td>Орландо</td>
+			<td>Китай</td>
+			<td>Чжэцзянский университет</td>
+			<td>Мо Луи</td>
+			<td>Оуян Цзялинь</td>
+			<td>У Цзэцзюнь</td>
+			<td>Ван Цань</td>
+			<td>10 na 10</td>
+		</tr>
+	</tbody>	
+</table>
+<hr>
+<p>А вам предлагаем пройти олимпиаду по мемологии. Для начала заполните данную форму:</p>
+<form action="" method="post" id="ex2">
+	<p><label>Имя<input type="text" name="FIO"></label></p>
+	<p><label>Пароль:<input type="password" name="password"></label></p>
+	<p>Что ты делаешь в свободное время</p>
+	<p><label><input type="checkbox" name="check1" value="01">Смотрю сериалы</label></p>
+	<p><label><input type="checkbox" name="check1" value="02">Читаю книги</label></p>
+	<p><label><input type="checkbox" name="check1" value="03">Смотрю мемы</label></p>
+	<p><label><input type="checkbox" name="check1" value="04">Делаю дз по вебу</label></p>
+	<p>На сколько ты любишь мемы(от 0 до 10)?</p>
+	<p><label><input type="range" name="range" min="0" max="10" step="1" value="0"></label></p>
+	<p>Как часто вы смотрите мемчики?</p>
+	<p><label><input type="radio" name="radio1" value="05">Каждый час</label></p>
+	<p><label><input type="radio" name="radio1" value="06">Раз в день</label></p>
+	<p><label><input type="radio" name="radio1" value="07">Раз в два дня</label></p>
+	<p><label><input type="radio" name="radio1" value="08">Раз в неделю</label></p>
+	<p><label><input type="number" name="age" min="0" step="1">Со скольки лет вы смотрите мемы?</label></p>
+	<p><label><input type="search" name="poisk"> Найдите ваш любимый мем</label></p>
+	<p><label>И загрузите его сюда <input type="file" name="photo"></label></p>
+	<p>Отметь на какие паблики из перечисленного ты подписан (если подписан):</p>
+	<p><select name="spisok" size="4" multiple>
+		<option value="1">Первый Мемологический</option>
+		<option value="2">SAVAGE MEMES</option>
+		<option value="3">Ванильный ВМК</option>
+		<option value="3">контур гуся</option>
+		<option value="3">Лепра</option>	
+	</select></p>
+	<p><label><input type="url" name="url"> Ваш любимый паблик с мемасами</label></p>
+	<p><label><input type="email" name="e-mail"> Введите ваш e-mail для связи</label></p>
+	<p><label><input type="tel" name="phone"> Ваш телефон</label></p>
+	<p><input type="reset" name="reset"></p>
+	<p><input type="submit" name="sent"></p>
+</form>	
+</body>
+<footer>
+	<p align="center">created by dr.black.666</p>
+</footer>	
+</html>
