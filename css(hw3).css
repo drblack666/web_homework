@@ -1,0 +1,36 @@
+body {
+  background: url(images/image03.jpg);
+  background-size: cover;
+}
+.block {
+  border-top: 13px solid green;
+  text-align: center;
+  margin: auto;
+  background-color: lightgreen;
+  max-width: 460px;
+  line-height: 1.5;
+}
+span {
+  font-size: 22px;
+  font-weight: 800;
+  padding: 10px;
+}
+input {
+  font-size: 18px;
+  text-align: center;
+  border-radius: 14px;
+  width: 300px;
+}
+.sentbutton {
+  height: 40px;
+  border-radius: 20px;
+  background-color: darkviolet;
+  font-weight: bolder;
+  border-width: 2px;
+  width: 200px;
+  font-family: Slabo;
+}
+.sentbutton:hover {
+  box-shadow: 0px 0px 15px 0px;
+  background-color: red;
+}
